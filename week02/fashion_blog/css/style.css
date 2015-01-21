@@ -73,7 +73,8 @@ body {
     margin-top: 100px;
 }
 
-header {
+header { 
+    margin-top: 80px;
 
 }
 
@@ -186,18 +187,13 @@ footer { padding: 50px 0px 80px 0px;
     padding-bottom: 20px;
 }
 
-.title {
-    width: 960px; 
-    height: 65px;
-    margin-top: 80px
-}
 
 .subtitle {
-    float: left;
     margin-top: 20px;
     padding-left: 35px;
     font-weight: lighter;
     font-size: 25px;
+    display: inline-block;
 }
 
 
@@ -206,8 +202,8 @@ h1 {
     margin: 0px;
     padding: 0px;
     font-weight: lighter;
-    float: left;
     line-height: 52px;
+    display: inline-block;
 }
 
 h2 {
