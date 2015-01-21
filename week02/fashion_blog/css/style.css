@@ -1,0 +1,239 @@
+/*!
+ * Project Name: Blank Template
+ * Client: Your Client
+ * Author: Your Name
+ * GA FEWD10, Washington, D.C.
+ */
+
+
+/*******************************************
+ * SETUP
+ *******************************************/
+
+/* Box Model Hack */
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+       -moz-box-sizing: border-box; /* Firexfox */
+            box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+/*******************************************
+ * BASE STYLES
+ *******************************************/
+
+body {
+    color: #000;
+    /*font-family: Helvetica, Arial, sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+
+/*******************************************
+ * LAYOUT
+ *******************************************/
+
+/* Center the container */
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.main-section {
+    float: left;
+    width: 66.6666%;
+}
+
+.sidebar {
+    float: right;
+    width: 29%;
+    margin-top: 100px;
+}
+
+header {
+
+}
+
+footer { padding: 50px 0px 80px 0px;
+
+}
+
+/*******************************************
+ * ADDITIONAL STYLES
+ *******************************************/
+
+.main-section article img {
+    width: 100%;
+    height: auto;
+}
+
+.grey-color,
+.grey-list a {
+    color: grey; 
+}
+
+.horizontal-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    color: #fff;
+}
+
+.black-nav li {
+    padding: 15px 39px;
+    background-color: #000;
+}
+
+.black-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 
+}
+
+.noline {
+    text-decoration: none;
+}
+
+.red,
+.red a {
+    color: red;
+    text-decoration: none;
+}
+
+.sidebar-red a {
+    color: red;
+    text-decoration: none;
+}
+
+.black {
+    color: black;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.red li {
+    margin: 0px 3px 20px 0px;
+    border-right: 1px solid grey;
+}
+
+.red li:last-child  {
+    border-right: none; 
+}
+
+.text,
+.sidebar-text {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.text:first-letter {
+    color: grey;
+    font-size: 105px;
+    float: left;
+    line-height: 90px;
+    padding-right: 10px;
+
+}
+
+.sidebar-line {
+    border-bottom: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    padding-bottom: 18px;
+}
+
+.footer li {
+    display: inline-block;
+    padding-right: 8px;
+}
+
+.ad {
+    padding-bottom: 20px;
+}
+
+.title {
+    width: 960px; 
+    height: 65px;
+    margin-top: 80px
+}
+
+.subtitle {
+    float: left;
+    margin-top: 20px;
+    padding-left: 35px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+
+h1 {
+    font-size: 52px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
+    float: left;
+    line-height: 52px;
+}
+
+h2 {
+    margin: 5px 0px 10px 0px;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+
+h3 {
+    margin:0px;
+    font-size: 34px;
+    font-weight: lighter;
+}
+
+article {
+    border-bottom: 1px solid grey;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+

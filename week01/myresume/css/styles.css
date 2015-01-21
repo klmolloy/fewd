@@ -1,0 +1,73 @@
+#content {
+	margin: 100px auto;
+	width: 700px;
+
+}
+
+.contact {
+	width: 200px;
+	float: left;
+}
+
+.resume {
+	width: 450px;
+	float: right;
+	border-left: 1px solid #53A08E;
+	padding: 0px 0px 0px 30px;
+}
+
+.social {
+	text-align: center;
+}
+
+.active {
+	color: #53A08E;
+}
+
+nav {
+	font-family: helvetica;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+a {
+	margin: 0px 5px 0px 5px;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 30px 0px 15px 0px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #53A08E;
+	margin: 0px 0px 2px 0px;
+	padding: 0px;
+}
+
+span { font-style: italic;
+}
+
+.italic {
+	font-style: italic;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+
+ul {
+	margin: 12px 0px 25px 0px;
+}
+
+li {
+	margin: 0px 0px 5px 0px;
+}
