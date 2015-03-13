@@ -398,74 +398,118 @@ h4 {
 	.godcircle {
 		width: 80%;
 		height: 100vh;
-		margin-left: 4%;
+		margin-left: 9%;
 		position: relative;
+		/*transform: scale(.8);*/
 	}
 
 	.icondesktop {
-		width: 13%;
+		width: 106px;
 		height: 106px;
 		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -53px;
+		margin-left: -53px;
+		transform-origin: 50% 300px;
+		display: block;
+	}
+
+	.icondesktop div {
+		width: 106px;
+		height: 106px;
 	}
 
 	.p1 {
-		left: 50%;
-		top: 40px;	
+		transform: translatey(-270px);	
 	}
 
 	.p2 {
-		left: 65%;
-		top: 80px
+		transform: translatey(-270px) rotatez(30deg);
+
+	}
+	.p2 div {
+		transform: rotatez(-30deg);
 	}
 
 	.p3 {
-		left: 78%;
-		top: 160px;
+		transform: translatey(-270px) rotatez(60deg);
+	}
+
+	.p3 div{
+		transform: rotatez(-60deg);
 	}
 
 	.p4 {
-		top: 41%;
-		right: 20px;
+		transform: translatey(-270px) rotatez(90deg);
+	}
+
+	.p4 div {
+		transform: rotatez(-90deg);
 	}
 
 	.p5 {
-		left: 78%;
-		bottom: 160px;
+		transform: translatey(-270px) rotatez(120deg);
+	}
+
+	.p5 div {
+		transform: rotatez(-120deg);
 	}
 
 	.p6 {
-		left: 65%;
-		bottom: 80px;
+		transform: translatey(-270px) rotatez(150deg);
+	}
+
+	.p6 div {
+		transform: rotatez(-150deg);
 	}
 
 	.p7 {
-		left: 50%;
-		bottom: 40px;
+		transform: translatey(-270px) rotatez(180deg);
+	}
+
+	.p7 div {
+		transform: rotatez(-180deg);
 	}
 
 	.p8 {
-		left: 35%;
-		bottom: 80px;
+		transform: translatey(-270px) rotatez(210deg);
+	}
+
+	.p8 div {
+		transform: rotatez(-210deg);
 	}
 
 	.p9 {
-		left: 23%;
-		bottom: 160px;
+		transform: translatey(-270px) rotatez(240deg);
+	}
+
+	.p9 div {
+		transform: rotatez(-240deg);
 	}
 
 	.p10 {
-		top: 41%;
-		left: 150px;
+		transform: translatey(-270px) rotatez(270deg);
+	}
+
+	.p10 div {
+		transform: rotatez(-270deg);
 	}
 
 	.p11 {
-		left: 23%;
-		top: 160px;
+		transform: translatey(-270px) rotatez(300deg);
+	}
+
+	.p11 div {
+		transform: rotatez(-300deg);
 	}
 
 	.p12 {
-		left: 35%;
-		top: 80px;
+		transform: translatey(-270px) rotatez(330deg);
+	}
+
+	.p12 div {
+		transform: rotatez(-330deg);
 	}
 
 
