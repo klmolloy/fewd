@@ -129,7 +129,7 @@ a {
 }
 
 .thumb {
-	height: 160px;
+	height: 150px;
 	width: 46%;
 	background-color: #fff;
 	display: inline-block;
@@ -200,7 +200,7 @@ a {
 .baal {background: url(img/baal_godicon-05.svg); background-size: cover;}
 
 .icon {
-	height: 160px;
+	height: 155px;
 	width: 46%;
 	margin: 30px auto;
 }
