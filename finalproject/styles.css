@@ -160,7 +160,7 @@ a {
 
 .two {background-image: url(img/coverissue2.jpg);}
 
-.three {background-image: url(img/coverissue3.png);}
+.three {background-image: url(img/coverissue3.jpg);}
 
 .four {background-image: url(img/coverissue4.jpg);}
 
@@ -200,7 +200,7 @@ a {
 .baal {background: url(img/baal_godicon-05.svg); background-size: cover;}
 
 .icon {
-	height: 164px;
+	height: 160px;
 	width: 46%;
 	margin: 30px auto;
 }
