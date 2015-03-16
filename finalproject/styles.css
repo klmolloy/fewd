@@ -130,7 +130,7 @@ a {
 
 .thumb {
 	height: 145px;
-	width: 145px;
+	width: 45%;
 	background-color: #fff;
 	display: inline-block;
 	margin: 10px 10px 10px 0px;
@@ -233,7 +233,6 @@ p {
 	font-family: 'Open Sans Condensed', sans-serif;
 	position: absolute;
 	padding: 10px;
-	/*background-color: #333;*/
 	bottom: 50px;
 	text-align: center;
 	width: 100%;
@@ -275,82 +274,67 @@ h4 {
 	display: none;
 }
 
+
+
 /*Media Quieries*/
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 600px) {
 
 	body {
-		background-color: #000;
-	}
-
-	header {
-		padding: 20px;
-	}
-
-	.container {
-		margin: auto;
-		width: 80%;
-	}
-
-	.main-content {
-		padding: 0 0 20px 0;
-	}
-
-	.nextissue {
-		display: inline-block;
-		background-image: url(img/coverissue10.jpg);
-		background-size: cover;
-		background-position: 50% 50%;
 		height: 100vh;
-		width: 45%;
-		vertical-align: top;
-		margin-right: 10px;
-	}
-
-	.nextmonth {
-		background-color: #111;
-		float: left;
-		color: #fff;
-		font-size: 22px;
-		padding: 8px 12px;
-		font-family: 'Open Sans Condensed', sans-serif;
+		background-color: #222;
 	}
 
 	.issues {
-		width: 50%;
-		display: inline-block;
-		padding: 20px;
+		padding: 0 0px 0 5px;
+	}
+
+	.back {
+	background-size: 18px;
+  margin: 0px 10px 0px 15px;
+	}
+
+	p {
+	padding: 20px 40px;
+	}
+
+	.thumb {
+		height: 250px;
+		width: 160px;
+		margin: 10px 10px;
+	}
+
+	.thumbleft {
+		margin: 10px 10px;
+	}
+
+	.godcircle {
+		padding: 10px 20px;
+	}
+
+	.icondesktop  div{
+		width: 150px;
+		height: 150px;
+	}
+
+}
+
+
+
+@media screen and (min-width: 760px) {
+
+	.issues {
+		padding: 0 0 0 30px;
 	}
 
 	.thumb {
 		height: 300px;
-		width: 45%;
-		margin: 10px;
-		display: inline-block;
-	}
-
-	/*Issue Page*/
-
-	.cover {
-		height: 100vh;
-		width: 45%;
-		display: inline-block;
-		vertical-align: top;
-
-	}
-
-	.scroll {
-		display: none;
+		width: 190px;
+		margin: 10px 15px;
 	}
 
 	.summary {
-		width: 50%;
-		display: inline-block;
-		margin-top: 10%;
-	}
-
-	h2 {
-		margin-bottom: 50px;
+		padding: 20px 50px;
 	}
 
 	h4 {
@@ -358,44 +342,8 @@ h4 {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-size: 38px;
 		display: block;
-		margin: 0px 0px 20px 10px;
+		margin: 20px 0px 20px 10px;
 	}
-
-	.back {
-		background-size: 12px;
-		width: 4%;
-		display: inline-block;
-		height: 14px;
-		margin: 0px
-	}
-
-	/*God Profile*/
-
-	.icon {
-		width: 305px;
-		height: 305px;
-	}
-
-	.identity {
-		width: 55%;
-		margin: auto;
-		padding-top: 20px;
-	}
-
-	.identity ul {
-		text-align: left;
-	}
-
-	.myth {
-		width: 55%;
-		margin: auto;
-	}
-
-	p {
-		padding-left: 2px;
-	}
-
-	/*God circle*/
 
 	.godcircle {
 		width: 80%;
@@ -514,5 +462,258 @@ h4 {
 		transform: rotatez(-330deg);
 	}
 
+	p {
+		padding: 20px 60px;
+	}
+
+	.identity ul {
+		padding: 0 0 0 50px;
+		text-align: left;
+	}
+
+	.backgods {
+		margin: 0px 10px 0px 60px;}
+
+}
+
+@media screen and (min-width: 800px) {
+
+	body {
+		background-color: #000;
+	}
+
+	header {
+		padding: 20px;
+	}
+
+	.container {
+		margin: auto;
+		width: 80%;
+	}
+
+	.main-content {
+		padding: 0 0 20px 0;
+	}
+
+	.nextissue {
+		display: inline-block;
+		background-image: url(img/coverissue10.jpg);
+		background-size: cover;
+		background-position: 50% 50%;
+		height: 100vh;
+		width: 50%;
+		vertical-align: top;
+		margin-right: 2%;
+	}
+
+	.nextmonth {
+		background-color: #111;
+		float: left;
+		color: #fff;
+		font-size: 22px;
+		padding: 8px 12px;
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	.issues {
+		width: 45%;
+		display: inline-block;
+		padding: 20px 0 0 10px;
+	}
+
+	.thumb {
+		/*height: 300px;
+		width: 190px;*/
+		margin: 10px;
+		display: inline-block;
+	}
+
+	/*Issue Page*/
+
+	.cover {
+		height: 100vh;
+		width: 45%;
+		display: inline-block;
+		vertical-align: top;
+
+	}
+
+	.scroll {
+		display: none;
+	}
+
+	.summary {
+		width: 50%;
+		display: inline-block;
+		margin-top: 10%;
+		padding: 20px;
+	}
+
+	h2 {
+		margin-bottom: 50px;
+	}
+
+	h4 {
+		/*color: #fff;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 38px;
+		display: block;*/
+		margin: 0px 0px 20px 10px;
+	}
+
+	.back {
+		background-size: 12px;
+		width: 4%;
+		display: inline-block;
+		height: 14px;
+		margin: 0px
+	}
+
+	/*God Profile*/
+
+	.icon {
+		width: 305px;
+		height: 305px;
+	}
+
+	.identity {
+		width: 55%;
+		margin: auto;
+		padding-top: 20px;
+	}
+
+	.identity ul {
+		text-align: left;
+		padding: 0;
+	}
+
+	.myth {
+		width: 55%;
+		margin: auto;
+	}
+
+	p {
+		padding-left: 2px;
+		padding: 20px 0px;
+	}
+
+	/*God circle*/
+
+/*	.godcircle {
+		width: 80%;
+		height: 100vh;
+		margin-left: 9%;
+		position: relative;
+		transform: scale(1);
+	}*/
+
+/*	.icondesktop {
+		width: 106px;
+		height: 106px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -53px;
+		margin-left: -53px;
+		transform-origin: 50% 300px;
+		display: block;
+	}*/
+
+	/*.icondesktop div {
+		width: 106px;
+		height: 106px;
+	}
+
+	.p1 {
+		transform: translatey(-270px);	
+	}
+
+	.p2 {
+		transform: translatey(-270px) rotatez(30deg);
+
+	}
+	.p2 div {
+		transform: rotatez(-30deg);
+	}
+
+	.p3 {
+		transform: translatey(-270px) rotatez(60deg);
+	}
+
+	.p3 div{
+		transform: rotatez(-60deg);
+	}
+
+	.p4 {
+		transform: translatey(-270px) rotatez(90deg);
+	}
+
+	.p4 div {
+		transform: rotatez(-90deg);
+	}
+
+	.p5 {
+		transform: translatey(-270px) rotatez(120deg);
+	}
+
+	.p5 div {
+		transform: rotatez(-120deg);
+	}
+
+	.p6 {
+		transform: translatey(-270px) rotatez(150deg);
+	}
+
+	.p6 div {
+		transform: rotatez(-150deg);
+	}
+
+	.p7 {
+		transform: translatey(-270px) rotatez(180deg);
+	}
+
+	.p7 div {
+		transform: rotatez(-180deg);
+	}
+
+	.p8 {
+		transform: translatey(-270px) rotatez(210deg);
+	}
+
+	.p8 div {
+		transform: rotatez(-210deg);
+	}
+
+	.p9 {
+		transform: translatey(-270px) rotatez(240deg);
+	}
+
+	.p9 div {
+		transform: rotatez(-240deg);
+	}
+
+	.p10 {
+		transform: translatey(-270px) rotatez(270deg);
+	}
+
+	.p10 div {
+		transform: rotatez(-270deg);
+	}
+
+	.p11 {
+		transform: translatey(-270px) rotatez(300deg);
+	}
+
+	.p11 div {
+		transform: rotatez(-300deg);
+	}
+
+	.p12 {
+		transform: translatey(-270px) rotatez(330deg);
+	}
+
+	.p12 div {
+		transform: rotatez(-330deg);
+	}*/
 
 }
