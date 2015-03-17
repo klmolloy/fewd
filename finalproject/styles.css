@@ -181,6 +181,8 @@ a {
 
 .deadluci {background: url(img/deadluci_godicon-03.svg); background-size: cover;}
 
+.aliveluci {background: url(img/aliveluci-godicon-02.svg); background-size: cover;}
+
 .minerva {background: url(img/minerva_godicon-11.svg); background-size: cover;}
 
 .sakhmet {background: url(img/sakhmet_godicon-04.svg); background-size: cover;}
@@ -643,6 +645,84 @@ h4 {
 	p {
 		padding-left: 2px;
 		padding: 20px 0px;
+	}
+
+	.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12 {
+		transition: all 0.5s ease;
+		-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+	}
+
+	.p1:hover {
+		transform: translatey(-290px);
+		-webkit-transform: translatey(-290px);
+     -moz-transform: translatey(-290px);
+	}
+
+	.p2:hover {
+		transform: translatey(-300px) rotatez(34deg);
+		-webkit-transform: translatey(-300px) rotatez(34deg);
+     -moz-transform: translatey(-300px) rotatez(34deg);
+	}
+
+	.p3:hover {
+		transform: translatey(-335px) rotatez(75deg);
+		-webkit-transform: translatey(-335px) rotatez(75deg);
+     -moz-transform: translatey(-335px) rotatez(75deg);
+	}
+
+	.p4:hover {
+		transform-origin: 65% 320px;
+		-webkit-transform-origin: 65% 320px;
+		-moz-transform-origin: 65% 320px;
+	}
+
+	.p5:hover {
+		transform-origin: 50% 330px;
+		-webkit-transform-origin: 50% 330px;
+		-moz-transform-origin: 50% 330px;
+		transform: translatey(-300px) rotatez(120deg);
+		-webkit-transform: translatey(-300px) rotatez(120deg);
+     -moz-transform: translatey(-300px) rotatez(120deg);
+	}
+
+	.p6:hover {
+		transform-origin: 50% 330px;
+		-webkit-transform-origin: 50% 330px;
+		-moz-transform-origin: 50% 330px;
+		transform: translatey(-300px) rotatez(150deg);
+		-webkit-transform: translatey(-300px) rotatez(150deg);
+     -moz-transform: translatey(-300px) rotatez(150deg);
+	}
+
+	.p7:hover {
+		transform-origin: 50% 320px;
+		-webkit-transform-origin: 50% 320px;
+		-moz-transform-origin: 50% 320px;
+	}
+
+.p8:hover {
+		transform-origin: 50% 330px;
+		-webkit-transform-origin: 50% 330px;
+		-moz-transform-origin: 50% 330px;
+		transform: translatey(-300px) rotatez(210deg);
+		-webkit-transform: translatey(-300px) rotatez(210deg);
+     -moz-transform: translatey(-300px) rotatez(210deg);
+	}
+	
+	.p9:hover {
+		transform-origin: 50% 330px;
+		-webkit-transform-origin: 50% 330px;
+		-moz-transform-origin: 50% 330px;
+		transform: translatey(-300px) rotatez(240deg);
+		-webkit-transform: translatey(-300px) rotatez(240deg);
+     -moz-transform: translatey(-300px) rotatez(240deg);
+	}
+
+	.p11:hover {
+		transform: translatey(-315px) rotatez(290deg);
+		-webkit-transform: translatey(-315px) rotatez(290deg);
+     -moz-transform: translatey(-315px) rotatez(290deg);
 	}
 
 	/*God circle*/
