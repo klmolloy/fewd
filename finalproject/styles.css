@@ -92,11 +92,14 @@ h2 {
 }
 
 h3 {
-	color: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-style: italic;
-	margin: 0;
-	padding: 10px 0px 5px 10px;
+	/*color: #fff;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #9B2A90;
 }
 
 .nav {
@@ -122,6 +125,10 @@ a {
 	text-decoration: none;
 	color: #fff;
 	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.welcomeicons {
+	padding-bottom: 24px;
 }
 
 .nextissue {
@@ -204,6 +211,12 @@ a {
 
 .baal {background: url(img/baal_godicon-05.svg); background-size: cover;}
 
+/*Trade Icons*/
+
+.voltwo {background: url(img/vol2-icon-02.svg); background-size: cover;}
+
+.volone {background: url(img/vol1-icon-02.svg); background-size: cover;}
+
 .icon {
 	height: 165px;
 	width: 165px;
@@ -285,6 +298,14 @@ h4 {
 		display: none;
 	}
 
+p a {
+		color: #aaa;
+	}
+
+	.contact {
+		padding-top: 0px;
+	}
+
 
 
 /*Media Quieries*/
@@ -329,6 +350,20 @@ h4 {
 		padding-bottom: 0px;
 	}
 
+	/*Index*/
+
+	h3 {
+		padding: 0px 40px;
+		font-size: 36px;
+	}
+
+	.tradeicon {
+		width: 35%;
+  	height: 0px;
+  	padding-bottom: 35%;
+  	margin-left: 8%
+	}
+
 }
 
 
@@ -350,12 +385,29 @@ h4 {
 	}
 
 	h4 {
-		color: #fff;
+		color: #9B2A90;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-size: 38px;
 		display: block;
 		margin: 20px 0px 20px 10px;
 	}
+
+	/*Pantheon*/
+
+	#nameonhover {
+		display: block;
+		font-family: 'Open Sans Condensed', sans-serif;
+  	font-size: 20px;
+  	color: #fff;
+  	text-align: center;
+  	top: 45%;
+	  position: absolute;
+	  left: -.5%;
+	  display: block;
+	  width: 100%;
+	  text-transform: uppercase;
+	}
+
 
 	.godcircle {
 		width: 80%;
@@ -534,6 +586,28 @@ h4 {
 	.backgods {
 		margin: 0px 10px 0px 60px;}
 
+	/*Index*/
+
+	.tradeicon {
+		width: 30%;
+		height: 0px;
+  	padding-bottom: 30%;
+  	margin-left: 15%;
+	}
+
+	.tradeicon:last-child {
+  	margin-left: 4%;
+	}
+
+	.welcomeicons {
+  	padding-top: 2%;
+  	padding-bottom: 5%;
+	 }
+
+	 h3 {
+	 	padding: 0px 60px;
+	 }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -582,8 +656,6 @@ h4 {
 	}
 
 	.thumb {
-		/*height: 300px;
-		width: 190px;*/
 		margin: 10px;
 		display: inline-block;
 	}
@@ -614,10 +686,6 @@ h4 {
 	}
 
 	h4 {
-		/*color: #fff;
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-size: 38px;
-		display: block;*/
 		margin: 0px 0px 20px 10px;
 	}
 
@@ -657,7 +725,9 @@ h4 {
 		padding: 20px 0px;
 	}
 
-	#nameonhover {
+	/*God Circle*/
+
+	/*#nameonhover {
 		display: block;
 		font-family: 'Open Sans Condensed', sans-serif;
   	font-size: 20px;
@@ -669,7 +739,7 @@ h4 {
 	  display: block;
 	  width: 100%;
 	  text-transform: uppercase;
-	}
+	}*/
 
 	.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12 {
 		transition: all 0.5s ease;
@@ -752,5 +822,45 @@ h4 {
 	.inactive {
 		cursor: default;
 	}
+
+	/*Index*/
+
+	.tradeicon {
+		width: 130px;
+  	height: 130px;
+  	padding-bottom: 0%;
+  	display: block;
+  	margin-left: 40%;
+  	margin-bottom: 30px;
+	}
+
+	.welcomeicons {
+	  padding-bottom: 24px;
+	  width: 45%;
+	  display: inline-block;
+	  vertical-align: top;
+	  margin-top: 16%;
+	}
+
+	.welcome {
+		width: 50%;
+  	display: inline-block;
+  	margin-top: 12%;
+  	padding-bottom: 5.5%;
+  	padding-right: 5%;
+	}
+
+	h3 {
+		font-size: 48px;
+  	margin-bottom: 5%;
+  	padding: 0px;
+  	color: #9B2A90;
+	}
+
+	.tradeicon:last-child {
+  	margin-left: 40%;
+	}
+
+	
 
 }
